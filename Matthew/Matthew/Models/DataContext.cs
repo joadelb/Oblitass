@@ -9,5 +9,7 @@ namespace Matthew.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Matthew.Models.Fairy> Fairies { get; set; }
     }
 }
